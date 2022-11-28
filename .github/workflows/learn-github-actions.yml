@@ -1,3 +1,7 @@
+name: github-actions
+run-name: ${{ github.actor }} is push GitHub Actions
+on: [push]
+
 jobs:
   build:
     runs-on: ubuntu-latest
